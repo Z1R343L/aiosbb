@@ -11,10 +11,10 @@ from asyncio import (
 )
 from dataclasses import dataclass, field
 from logging import getLogger
-from typing import Optional, Tuple, Union, Any, Callable
+from typing import Any, Callable, Optional, Tuple, Union
 
-from .validations import Validations
 from .patterns import ipv4_pattern
+from .validations import Validations
 
 log = getLogger()
 
